@@ -1,0 +1,54 @@
+
+
+.title {
+display: block;
+text-align: center;
+}
+.titleinfo {
+    font-size: 30px;
+    color: aqua;
+}
+.item {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border-top:  1px solid #E1E8EE;
+    border-bottom:  1px solid #E1E8EE;
+
+  }
+ 
+.like-btn {
+  cursor: pointer;
+  padding-left: 20px;
+  margin-left: 20px;
+  height: 50px;
+  width: 50px;
+  border-radius: 35px 35px 60px 60px;
+  background : rgb(255, 119, 238);
+  }
+  .buttons {
+    position: relative;
+    padding-top: 80px;
+    margin-right: 60px;
+  }
+.quantity, .description, .item-price {
+    position: relative;
+    padding-top: 80px;
+    margin-right: 60px;
+    font-size: 25px;
+
+}
+.description {
+    padding-left: 20px;
+}
+.Finalprice {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+#infoprice {
+    color: red;
+}
+  
